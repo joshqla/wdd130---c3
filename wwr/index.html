@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>AquaRapid Adventures | Dry Oar Boating | Home</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles\styles.css">
+
+    <link
+      rel="icon"
+      href="https://cdn.glitch.com/552d9a3c-96e7-4fd3-a680-732a8745d6ad%2Flogo.png?v=1601197686936"
+    />
+  </head>
+
+  <body>
+    <div id="content">
+      <header>
+        <div class="logo-box">
+          <a href="">
+            <img
+              src="C:\Users\josep\OneDrive\Documentos\BYU Idaho\wdd130\wwr\images\aquarapidlogo.png"
+              alt="This is the site logo"
+            />
+          </a>
+        </div>
+        <nav>
+          <!-- navigation here -->
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="aboutme.html">About</a></li>
+            <li><a href="site-plan.html">Site-Plan</a></li>
+            <li><a href="positioning.html">Grid-box</a></li>
+            <li><a href="#">Info</a></li>
+          </ul>
+        </nav>
+      </header>
+      <br />
+      <main>
+        <div class="banner-box">
+          <img
+            class="banner"
+            src="https://cdn.glitch.com/552d9a3c-96e7-4fd3-a680-732a8745d6ad%2Fsalmon-kayak-banner1.jpg?v=1601805529901"
+            alt="Image of a river trip"
+          />
+          <div class="action">
+            <h3>
+              Plan your next adventure with us!
+            </h3>
+            <a href="">Contact Us</a>
+          </div>
+        </div>
+        <div class="home-grid">
+          <h2 class="home-headline-1">We run Rivers to relax</h2>
+          <p class="home-paragraph-1">
+            We believe that there is nothing like a river trip for relaxing.
+            That is why we subscribe to the dry oar philosophy of boating.
+            Keeping your oars dry for us means taking time to look around and
+            notice the beauty that surrounds the rivers we love
+          </p>
+          <img
+            class="home-right-img"
+            src="https://cdn.glitch.com/552d9a3c-96e7-4fd3-a680-732a8745d6ad%2Fhermit2.jpg?v=1601805522460"
+            alt="Tour West boat with sailors in it"
+          />
+
+          <h2 class="home-headline-2">We run whitewater for the rush</h2>
+          <p class="home-paragraph-2">
+            That doesn't mean we don't also like rapids. Opposites in all things
+            after all. We believe that that tenseness that comes when you are
+            looking down the tongue of a big string of waves makes you
+            appreciate the calm beautiful water that always follows even more
+          </p>
+          <img
+            class="home-left-img"
+            src="https://cdn.glitch.com/552d9a3c-96e7-4fd3-a680-732a8745d6ad%2Fsalmon-kayak4.jpg?v=1601805525122"
+            alt="An image of two boats and riders"
+          />
+          <section class="home-paragraph-3">
+            <h2>Come Run with us</h2>
+            <p>
+              We invite you to come relax with us on one of the amazing rivers
+              we visit. Check out our trips and let us know which one best suits
+              you. We're waiting to hear from you!
+            </p>
+          </section>
+        </div>
+      </main>
+      <footer class="footer">
+        <p>© 2020 Dry Oar - Foli Martin - WDD 1004</p>
+        <div class="social">
+          <a href="https://www.instagram.com/cheflee21/" target="_blank"
+            ><img
+              src="https://cdn.glitch.com/26f68a8f-6c5b-49cb-ad82-888e6ede3c41%2Finstagram.png?v=1602031155303"
+              alt="instagram icon"
+          /></a>
+
+          <a href="https://www.pinterest.com/folimrtn" target="_blank"
+            ><img
+              src="https://cdn.glitch.com/26f68a8f-6c5b-49cb-ad82-888e6ede3c41%2Fpinterest.png?v=1602031160923"
+              alt="pinterest icon"
+          /></a>
+
+          <a href="https://www.facebook.com/cheflee21" target="_blank"
+            ><img
+              src="https://cdn.glitch.com/26f68a8f-6c5b-49cb-ad82-888e6ede3c41%2Ffacebook.png?v=1602031145760"
+              alt="facebook icon"
+          /></a>
+          <a href="https://twitter.com/foli_martin" target="_blank">
+            <img
+              src="https://cdn.glitch.com/552d9a3c-96e7-4fd3-a680-732a8745d6ad%2Ftwitter.png?v=1602065507827"
+              alt="Twitter icon"
+            />
+          </a>
+        </div>
+      </footer>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fa fa-arrow-up"></i>
+      </button>
+    </div>
+
+    <script>
+      //Get the button
+      var mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+  </body>
+</html>
